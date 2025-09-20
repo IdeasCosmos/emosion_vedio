@@ -1,0 +1,19 @@
+{
+  "openai": {
+    "api_key": "YOUR_OPENAI_API_KEY_HERE",
+    "model": "gpt-3.5-turbo",
+    "codex_model": "code-davinci-002",
+    "max_tokens": 2048,
+    "temperature": 0.7
+  },
+  "workspace": {
+    "local_path": "C:\\emosion",
+    "project_name": "emosion_vedio",
+    "git_remote": "https://github.com/IdeasCosmos/emosion_vedio.git"
+  },
+  "video_processing": {
+    "supported_formats": ["mp4", "avi", "mov", "mkv"],
+    "output_directory": "videos/output",
+    "temp_directory": "temp"
+  }
+}
